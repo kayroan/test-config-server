@@ -1,0 +1,5 @@
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://localhost:8090/eureka
+      defaultZone: http://mdm-service-discovery-container:8090/eureka
